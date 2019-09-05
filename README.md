@@ -12,3 +12,13 @@
   </a>
   
  </p> 
+ 
+ ### Links legais
+ 
+ - **_CSS Grid Garden - Display Flex:_** [CSS Grid](https://cssgridgarden.com/)
+ - **_CSS Tricks:_** [CSS Tricks](https://css-tricks.com/)
+ - **_CSS Garden:_** [CSS Garden](https://cssgridgarden.com/)
+ 
+### Dicas
+
+- **_Span (inline e serve para colocar negrito mudar cor e etc em um texto:_** `</span>`
