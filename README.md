@@ -24,9 +24,11 @@
 - **_Span (inline e serve para colocar negrito mudar cor e etc em um texto:_** `</span>`
 - **_Como dar um push quanto se tem autentificação de dois fatores:_** `Cria um acess token em setting/developer settings/Generate new token
 -**_@Media usado para mudar valores de itens para a responsividade para tipos de telas:_** 
-`@media(min-width:758px){
+```
+@media(min-width:758px){
     section .personagens{
         flex-direction: row;
     }
-}`
+}
+```
 
