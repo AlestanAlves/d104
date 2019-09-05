@@ -1,10 +1,46 @@
 body {
     display: grid;
-    grid-template-areas: 'nav'
+    grid-template-areas: 'navbar'
                           'banner'
                           'main'
                           'section'
                           'footer';
     grid-template-columns: 100vw;
+    margin: 0;
 
+}
+
+header{
+    grid-area: banner;
+    background-image: url(../images/99b70adfaf72df755d7568c6bd75c785.jpg);
+    background-position: cover;
+    background-position: center;
+    height: 200px;
+}
+
+nav {
+    background-color: blue;
+    grid-area: navbar;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 1% 5%;
+}
+
+nav div{
+    display: flex;
+    flex-direction: column;
+    height: 25px;
+    justify-content: space-between;
+    
+}
+
+nav div span{
+    background-color: black;
+    height: 3px;
+    width: 30px;
+}
+
+nav img{
+    width: 15%;
 }
