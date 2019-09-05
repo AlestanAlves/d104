@@ -12,16 +12,20 @@ body {
 
 header{
     grid-area: banner;
-    background-image: url(../images/99b70adfaf72df755d7568c6bd75c785.jpg);
+    background-image: url(../images/banner.jpg);
     background-position: cover;
-    background-position: center;
+    background-position: bottom;
     height: 200px;
 }
 
 main {
     grid-area: main;
     text-align: center;
-    background-color: rgb(212, 212, 212);
+    background-color: black;
+}
+
+main h1, main p {
+    color: aliceblue;
 }
 
 
@@ -53,6 +57,19 @@ nav img{
     width: 15%;
 }
 
+section .personagens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 section {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
+
