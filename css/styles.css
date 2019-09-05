@@ -46,6 +46,22 @@ nav div{
     
 }
 
+nav div:nth-child(2){
+    display:flex;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav div:nth-child(1) {
+    display: none;
+}
+
+nav div:nth-child(2) {
+    display: block;
+}
+
 nav div span{
     background-color: black;
     height: 3px;
@@ -59,17 +75,29 @@ nav img{
 
 section .personagens {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 
 section {
+    grid-area: section;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
 
+}
+/* Pode chamar quantas tags quiser dentro do @media*/
+@media(min-width:580px){
+    header {
+        background-image: url(../images/banner.jpg)
+    }
+    section .personagens{
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100vw;
+    }
 }
 
