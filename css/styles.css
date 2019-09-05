@@ -18,6 +18,13 @@ header{
     height: 200px;
 }
 
+main {
+    grid-area: main;
+    text-align: center;
+    background-color: rgb(212, 212, 212);
+}
+
+
 nav {
     background-color: blue;
     grid-area: navbar;
@@ -39,8 +46,13 @@ nav div span{
     background-color: black;
     height: 3px;
     width: 30px;
+    border-radius: 30px;
 }
 
 nav img{
     width: 15%;
+}
+
+section {
+    text-align: center;
 }
